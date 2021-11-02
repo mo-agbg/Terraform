@@ -20,3 +20,7 @@ variable "storage_class" {
 variable "function_name" {
     type = string
 }
+
+variable "apigateway_name" {
+    type = string
+}
