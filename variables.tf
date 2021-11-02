@@ -16,3 +16,7 @@ variable "project_id" {
 variable "storage_class" {
     type = string
 }
+
+variable "function_name" {
+    type = string
+}
