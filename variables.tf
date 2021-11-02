@@ -21,6 +21,6 @@ variable "function_name" {
     type = string
 }
 
-variable "apigateway_name" {
+variable "api_name" {
     type = string
 }
