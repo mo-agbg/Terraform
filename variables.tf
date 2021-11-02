@@ -21,11 +21,6 @@ variable "function_name" {
     type = string
 }
 
-variable "api_name" {
+variable "apigateway_name" {
     type = string
-}
-
-git branch -m main init
-git fetch origin
-git branch -u origin/init init
-git remote set-head origin -a
+    }
