@@ -24,3 +24,8 @@ variable "function_name" {
 variable "api_name" {
     type = string
 }
+
+git branch -m main init
+git fetch origin
+git branch -u origin/init init
+git remote set-head origin -a
